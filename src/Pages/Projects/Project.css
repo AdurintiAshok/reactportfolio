@@ -87,6 +87,12 @@
       flex-direction: column;
       width: 100%;
     }
+    .container2 {
+      display: flex;
+      flex-direction: column;
+      padding-left: 2%;
+      font-family: Didot;
+    }
     .maindiv {
       padding-right: 5%;
       padding-left:5%;

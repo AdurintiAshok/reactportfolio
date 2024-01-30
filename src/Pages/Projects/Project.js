@@ -218,8 +218,7 @@ function Project() {
         <>
           <div className="container2">
 
-           <div className="row">
-           <div className="card1">
+          <div className="card1">
               <div className="icons">
                 <div className="folder-icon">
                   <AiOutlineFolder size={30} color="#64ffda" />
@@ -244,41 +243,27 @@ function Project() {
             <div className="card1">
               <div className="icons">
                 <div className="folder-icon">
-                  <a
-                    href="https://onymos.com/api/onymos-access-functions/"
-                    target="_blank"
-                  >
-                    <AiOutlineFolder size={30} color="#64ffda" />
-                  </a>
+                  <AiOutlineFolder size={30} color="#64ffda" />
                 </div>
                 <div className="other-icons">
-                  <a
-                    href="https://onymos.com/api/onymos-access-functions/"
-                    target="_blank"
-                  >
-                    <BsLink45Deg size={20} />
-                  </a>
+                  <BsLink45Deg size={20} />
                 </div>
               </div>
-
               <div className="techie">
-                <h5 style={{ color: "#64ffda" }} className="title">
-                  Access Feature for Mobile
-                </h5>
+                <h5 style={{ color: "#64ffda" }}>Vapotherm</h5>
                 <p style={{ fontSize: 15 }} class="description">
-                  Developed a Native module to authenticate the user using one
-                  of the leading social authentication (OAuth 2.0) providers for
-                  React Native FrameWork
+                  The UI screens developed for the Vapotherm project offer a
+                  user-friendly interface that facilitates seamless access and
+                  management of healthcare data
                 </p>
               </div>
               <div className="techstack">
-                <p>Java</p>
-                <p>TypeScript</p>
-                <p>React Native</p>
+                <p>Angular</p>
+                <p>Tailwindcss</p>
               </div>
             </div>
-           </div>
-          </div>
+            </div>
+
         </>
       ) : null}
       <div class="hello-button-container">
