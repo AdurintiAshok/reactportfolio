@@ -1,0 +1,61 @@
+
+.maindivP
+{
+    display: flex;
+   align-content:center;
+   align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0a192f;
+    padding: 5%;
+
+}
+.hi{
+    background-color: #0a192f;
+}
+
+.headingtext
+{
+    text-align: center;
+    color: aliceblue;
+    font-family: Didot;
+}
+.descr
+{
+    text-align: center;
+    color: aliceblue;
+    font-family: Didot;
+}
+.labeltext
+{
+    color: aliceblue;
+    font-family: Didot;
+}
+
+.error
+{
+    color: #f75b5b;
+    font-family: Didot;
+}
+.submit1
+{
+    background-color: #64ffda;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    border-radius: 3%;
+}
+
+.hello
+{
+    display: flex;
+    align-content:center;
+    align-items: center;
+     justify-content: center;
+}
+
+  

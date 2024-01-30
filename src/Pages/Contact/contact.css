@@ -1,0 +1,57 @@
+.hello-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hello-button {
+    background-color: #64ffda;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    border-radius: 3%;
+
+  }
+  .bigtext{
+    text-align: center;
+    color: aliceblue;
+  }
+  .next
+  {
+    text-align: center;
+    color: aliceblue;
+  }
+  .getin
+  {
+    text-align: center;
+    color: aliceblue;
+  }
+  .hello-button:hover {
+    background-color: #00adb5;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, 2px) scale(1.2);
+    transform: translate(0px, 2px) scale(1.2);
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+  }
+  
+  .hello-button-text {
+    animation: pulse 1.5s infinite;
+    font-family: Didot;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

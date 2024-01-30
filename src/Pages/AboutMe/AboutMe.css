@@ -1,0 +1,64 @@
+.aboutmediv
+{
+    padding-top:10%;
+    padding-left:10%;
+    padding-bottom:10%;
+    background-color: #0a192f;
+    color: aliceblue;
+    font-family: Didot;
+
+}
+.section2
+{
+  background-color: #0a192f;
+  color: aliceblue;
+}
+.details
+{
+    max-width: 600px;
+
+}
+.heading
+{
+  font-family: sans-serif;
+}
+
+.ashokimage
+{
+  width:auto;
+  height:300px;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  border-radius:2%;
+}
+.imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.ashokimage:hover
+{
+
+  -webkit-transform: translate(0px, 2px) scale(1.05);
+  transform:scale(1.05);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  filter: none;
+}
+ul li{
+  list-style-type: none;
+}
+.two-column-list
+{
+padding-top:3%;
+}
+ul{
+   column-count:2;
+
+}
+
+
+

@@ -1,0 +1,40 @@
+.homediv
+{
+    padding-top:10%;
+    padding-left:10%;
+    padding-bottom:10%;
+    background-color: #0a192f;
+}
+.aboutme
+{
+    color: #e6f1ff;
+
+}
+.aboutme .name
+{
+    font-family: monospace;
+}
+.companytext
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+.aboutme .big-heading1
+{
+    font-family: Calibre;
+    font-weight: 1000;
+    color: #e6f1ff;
+}
+.aboutme .big-heading2
+{
+    font-family: Calibre;
+    font-weight:1000;
+    color: #8892b0;
+
+}
+.aboutme .details
+{
+    max-width: 600px;
+    font-family: Didot;
+    
+}
