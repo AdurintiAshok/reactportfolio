@@ -155,7 +155,9 @@ function Project() {
 
 {state ?
   <>
-      <div className="container2">
+      <div className="container2 col-sm-12">
+      <div className="row">
+    <div className="col-sm-12">
       <div className="card1">
   <div className="icons">
     <div className="folder-icon">
@@ -203,6 +205,8 @@ function Project() {
     </div>
 
 </div>   
+</div>
+</div>
       </div>
       </> :null
     }
