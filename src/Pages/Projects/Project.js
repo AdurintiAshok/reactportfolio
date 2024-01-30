@@ -246,20 +246,20 @@ function Project() {
                   <AiOutlineFolder size={30} color="#64ffda" />
                 </div>
                 <div className="other-icons">
+                  <a  href="https://onymos.com/api/onymos-access-functions/" target="_blank">
                   <BsLink45Deg size={20} />
+                  </a>
                 </div>
               </div>
               <div className="techie">
-                <h5 style={{ color: "#64ffda" }}>Vapotherm</h5>
+                <h5 style={{ color: "#64ffda",fontSize:'15px'}}>Access Feature for Mobile</h5>
                 <p style={{ fontSize: 15 }} class="description">
-                  The UI screens developed for the Vapotherm project offer a
-                  user-friendly interface that facilitates seamless access and
-                  management of healthcare data
+                Developed Native module that provides comprehensive functionality for user authentication, including login, logout, and signup features using email and password credentials.
                 </p>
               </div>
               <div className="techstack">
-                <p>Angular</p>
-                <p>Tailwindcss</p>
+                <p>React Native</p>
+                <p>Java</p>
               </div>
             </div>
             </div>
